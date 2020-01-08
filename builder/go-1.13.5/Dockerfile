@@ -1,6 +1,6 @@
-FROM python:3.7-alpine
+FROM golang:1.13.5-alpine
 WORKDIR /builder
-RUN apk --no-cache add build-base zip curl
+RUN apk --no-cache add build-base zip curl git
 ENV FILE_PATH=/
 ENV URL=http://localhost:4122
 ENV TOKEN=1234

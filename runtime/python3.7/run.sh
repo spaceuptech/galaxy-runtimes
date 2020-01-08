@@ -7,5 +7,5 @@ echo "Unzipping up the files"
 unzip -o build.zip 
 
 rm build.zip
-export PYTHONPATH=$PYTHONPATH:/images/vendor
+export PYTHONPATH=$PYTHONPATH:/runtime/vendor
 eval $CMD
