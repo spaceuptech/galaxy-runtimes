@@ -2,7 +2,7 @@
 set -e
 
 echo "Downloading python file"
-curl -O -L $URL/v1/api/test/files/build.zip
+curl -H "Authorization: Bearer $TOKEN" -O -L $URL/v1/api/test/files/build.zip
 echo "Unzipping up the files"
 unzip -o build.zip 
 

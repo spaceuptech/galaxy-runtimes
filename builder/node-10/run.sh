@@ -9,4 +9,3 @@ curl -H "Authorization: Bearer $TOKEN" -F "name=build.zip" -F "meta=$META" -F 'm
 
 rm build.zip
 rm -r node_modules
-rm package-lock.json
